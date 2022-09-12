@@ -29,11 +29,11 @@ class MyApp extends StatelessWidget {
                 children: [
                   Container(
                     child: Text(
-                      "Type: Chicken",
+                      "Type: Bird",
                       style:
                           TextStyle(color: Colors.white, fontFamily: "Handlee"),
                     ),
-                    padding: EdgeInsets.fromLTRB(20, 190, 0, 0),
+                    padding: EdgeInsets.fromLTRB(35, 190, 0, 0),
                   ),
                   Container(
                     decoration: BoxDecoration(
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
                     height: 200,
                     width: 200,
                     child: Image.asset(
-                      "images/katkoot.png",
+                      "images/flamingo.png",
                       height: 150,
                       fit: BoxFit.contain,
                     ),
@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(50),
                 child: Text(
-                  "Animal Name: 🐣KATKOOT🐥\nAge: IDK\nGender: Female",
+                  "Animal Name: Flamingo\nAge: IDK\nGender: Female",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
